@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-read --allow-net --watch ./src/main.ts",
+    "build": "deno compile --allow-read --allow-net --output rugops ./src/main.ts"
+  }
+}
