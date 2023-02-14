@@ -1,0 +1,9 @@
+{
+  "server": {
+    "port": 3344
+  },
+  "mapping": [
+    { "type": "static", "key": "/src", "path": "src" },
+    { "type": "proxy", "key": "/example/*", "target": "https://example.com" }
+  ]
+}
